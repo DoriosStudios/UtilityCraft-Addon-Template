@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shapeless": {
+    "description": { "identifier": "utilitycraft:example_speed_upgrade" },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      { "item": "minecraft:sugar" },
+      { "item": "minecraft:redstone" },
+      { "item": "minecraft:iron_ingot" }
+    ],
+    "unlock": [
+      { "item": "minecraft:sugar" },
+      { "item": "minecraft:redstone" },
+      { "item": "minecraft:iron_ingot" }
+    ],
+    "result": { "item": "utilitycraft:example_speed_upgrade", "count": 1 }
+  }
+}

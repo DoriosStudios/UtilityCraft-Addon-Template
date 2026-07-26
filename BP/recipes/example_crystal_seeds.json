@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shapeless": {
+    "description": { "identifier": "utilitycraft:example_crystal_seeds" },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      { "item": "minecraft:wheat_seeds" },
+      { "item": "minecraft:emerald" }
+    ],
+    "unlock": [
+      { "item": "minecraft:wheat_seeds" },
+      { "item": "minecraft:emerald" }
+    ],
+    "result": { "item": "utilitycraft:example_crystal_seeds", "count": 1 }
+  }
+}

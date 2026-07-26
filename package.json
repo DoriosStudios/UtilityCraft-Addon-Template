@@ -1,0 +1,21 @@
+{
+  "name": "utilitycraft-addon-template",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A documented Regolith template for building UtilityCraft machinery addons.",
+  "scripts": {
+    "check": "tsc --noEmit --project jsconfig.json && node tools/verify-resource-displays.mjs && node tools/verify-item-catalog.mjs",
+    "bundle": "node tools/bundle.mjs",
+    "verify:imports": "node tools/verify-public-imports.mjs",
+    "verify:resources": "node tools/verify-resource-displays.mjs",
+    "verify:catalog": "node tools/verify-item-catalog.mjs"
+  },
+  "dependencies": {
+    "@minecraft/server": "^2.8.0",
+    "@minecraft/server-ui": "^2.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0",
+    "typescript": "^6.0.3"
+  }
+}

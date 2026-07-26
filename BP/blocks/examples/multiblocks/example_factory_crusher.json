@@ -1,0 +1,49 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "utilitycraft:example_factory_crusher",
+      "menu_category": { "category": "construction" },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"],
+          "y_rotation_offset": 180
+        }
+      }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": { "texture": "utilitycraft_example_factory_crusher_side", "render_method": "alpha_test" },
+        "north": { "texture": "utilitycraft_example_factory_crusher_north", "render_method": "alpha_test" },
+        "up": { "texture": "utilitycraft_example_factory_crusher_up", "render_method": "alpha_test" },
+        "down": { "texture": "utilitycraft_example_factory_crusher_down", "render_method": "alpha_test" }
+      },
+      "minecraft:tick": { "interval_range": [2, 2] },
+      "utilitycraft:example_factory_crusher": {},
+      "minecraft:destructible_by_mining": { "seconds_to_destroy": 2 },
+      "minecraft:destructible_by_explosion": false,
+      "tag:dorios:machine": {},
+      "tag:dorios:energy": {},
+      "tag:dorios:item": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": { "minecraft:transformation": { "rotation": [0, 0, 0] } }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": { "minecraft:transformation": { "rotation": [0, 180, 0] } }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": { "minecraft:transformation": { "rotation": [0, -90, 0] } }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": { "minecraft:transformation": { "rotation": [0, 90, 0] } }
+      }
+    ]
+  }
+}

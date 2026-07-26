@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": { "identifier": "utilitycraft:example_crystal_shard", "menu_category": { "category": "items" } },
+    "components": {
+      "minecraft:icon": "utilitycraft_emerald_shard",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}
+

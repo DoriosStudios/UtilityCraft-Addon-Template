@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "utilitycraft:example_crystal_bonsai",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/apple_tree" },
+      "geometry": { "default": "geometry.utilitycraft_apple_tree" },
+      "render_controllers": ["controller.render.default"],
+      "animations": {
+        "controller": "controller.animation.utilitycraft_bonsai_dynamic",
+        "grow_dynamic": "animation.utilitycraft_bonsai.grow_dynamic"
+      },
+      "scripts": { "animate": ["controller"] }
+    }
+  }
+}
+

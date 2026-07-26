@@ -1,0 +1,12 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": { "identifier": "utilitycraft:example_mesh", "menu_category": { "category": "construction" } },
+    "components": {
+      "utilitycraft:mesh": { "tier": 4, "multiplier": 1.5, "amount_multiplier": 1 },
+      "minecraft:icon": "utilitycraft_diamond_mesh",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": { "max_durability": 768 }
+    }
+  }
+}

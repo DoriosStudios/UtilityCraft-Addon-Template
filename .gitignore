@@ -1,0 +1,7 @@
+node_modules/
+.regolith/
+builds/
+build/
+dist/
+*.mcaddon
+*.mcpack

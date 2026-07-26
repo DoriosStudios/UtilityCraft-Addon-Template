@@ -1,0 +1,104 @@
+pack.name=UtilityCraft Addon Template
+pack.description=Functional and documented DoriosCore examples.
+
+## Creative inventory groups
+utilitycraft:itemGroup.name.example_generators=Example Generators
+utilitycraft:itemGroup.name.example_machines=Example Machines
+utilitycraft:itemGroup.name.example_creative_tanks=Example Creative Tanks
+utilitycraft:itemGroup.name.example_multiblock_controllers=Example Multiblock Controllers
+utilitycraft:itemGroup.name.example_multiblock_components=Example Multiblock Components
+utilitycraft:itemGroup.name.example_meshes=Example Meshes
+utilitycraft:itemGroup.name.example_fishing_nets=Example Fishing Nets
+utilitycraft:itemGroup.name.example_upgrades=Example Machine Upgrades
+utilitycraft:itemGroup.name.example_resource_containers=Example Resource Containers
+utilitycraft:itemGroup.name.example_materials=Example Materials and Resources
+utilitycraft:itemGroup.name.example_hammers=Example Hammers
+utilitycraft:itemGroup.name.example_seeds=Example Seeds
+
+## Blocks
+tile.utilitycraft:example_cobble_generator.name=Example Cobblestone Generator\n§o§9@UC: Addon Template
+tile.utilitycraft:example_deepslate_generator.name=Example Deepslate Generator\n§o§9@UC: Addon Template
+tile.utilitycraft:example_thermal_crusher.name=Example Thermal Crusher\n§o§9@UC: Addon Template
+tile.utilitycraft:example_infuser.name=Example Infuser\n§o§9@UC: Addon Template
+tile.utilitycraft:example_fluid_washer.name=Example Liquid Washer\n§o§9@UC: Addon Template
+tile.utilitycraft:example_gas_reactor.name=Example Gas Reactor\n§o§9@UC: Addon Template
+tile.utilitycraft:example_solar_generator.name=Example Solar Generator\n§o§9@UC: Addon Template
+tile.utilitycraft:example_biofuel_generator.name=Example Biofuel Generator\n§o§9@UC: Addon Template
+tile.utilitycraft:example_gas_turbine.name=Example Gas Turbine\n§o§9@UC: Addon Template
+tile.utilitycraft:example_crystal_crop.name=Example Crystal Crop\n§o§9@UC: Addon Template
+tile.utilitycraft:example_creative_coolant_tank.name=Example Creative Coolant Tank\n§o§9@UC: Addon Template
+tile.utilitycraft:example_creative_biofuel_tank.name=Example Creative Biofuel Tank\n§o§9@UC: Addon Template
+tile.utilitycraft:example_creative_hydrogen_tank.name=Example Creative Hydrogen Tank\n§o§9@UC: Addon Template
+tile.utilitycraft:example_creative_exhaust_tank.name=Example Creative Exhaust Tank\n§o§9@UC: Addon Template
+
+## Multiblock blocks
+tile.utilitycraft:example_casing.name=Example Multiblock Casing\n§o§9@UC: Addon Template
+tile.utilitycraft:example_factory_crusher.name=Example Factory Crusher Controller\n§o§9@UC: Addon Template
+tile.utilitycraft:example_biofuel_dynamo.name=Example Biofuel Dynamo Controller\n§o§9@UC: Addon Template
+tile.utilitycraft:example_energy_cell.name=Example Energy Cell\n§o§9@UC: Addon Template
+tile.utilitycraft:example_fluid_cell.name=Example Liquid Cell\n§o§9@UC: Addon Template
+tile.utilitycraft:example_processing_module.name=Example Processing Module\n§o§9@UC: Addon Template
+tile.utilitycraft:example_speed_module.name=Example Speed Module\n§o§9@UC: Addon Template
+tile.utilitycraft:example_efficiency_module.name=Example Efficiency Module\n§o§9@UC: Addon Template
+tile.utilitycraft:example_item_port.name=Example Item Port\n§o§9@UC: Addon Template
+tile.utilitycraft:example_fluid_port.name=Example Liquid Port\n§o§9@UC: Addon Template
+tile.utilitycraft:example_energy_port.name=Example Energy Port\n§o§9@UC: Addon Template
+tile.utilitycraft:example_gas_port.name=Example Gas Port\n§o§9@UC: Addon Template
+
+## Items
+item.utilitycraft:example_speed_upgrade=Example Speed Upgrade\n§o§9@UC: Addon Template
+item.utilitycraft:example_efficiency_upgrade=Example Efficiency Upgrade\n§o§9@UC: Addon Template
+item.utilitycraft:example_batch_upgrade=Example Batch Upgrade\n§o§9@UC: Addon Template
+item.utilitycraft:example_thermal_upgrade=Example Thermal Upgrade\n§o§9@UC: Addon Template
+item.utilitycraft:example_empty_fluid_capsule=Empty Example Liquid Capsule\n§o§9@UC: Addon Template
+item.utilitycraft:example_coolant_capsule=Example Coolant Capsule (4,000 mB)\n§o§9@UC: Addon Template
+item.utilitycraft:example_biofuel_capsule=Example Biofuel Capsule (4,000 mB)\n§o§9@UC: Addon Template
+item.utilitycraft:example_empty_gas_capsule=Empty Example Gas Capsule\n§o§9@UC: Addon Template
+item.utilitycraft:example_hydrogen_capsule=Example Hydrogen Capsule (4,000 mB)\n§o§9@UC: Addon Template
+item.utilitycraft:example_exhaust_capsule=Example Exhaust Capsule (4,000 mB)\n§o§9@UC: Addon Template
+item.utilitycraft:example_hammer=Example Hammer\n§o§9@UC: Addon Template
+item.utilitycraft:example_mesh=Example Mesh\n§o§9@UC: Addon Template
+item.utilitycraft:example_fishing_net=Example Fishing Net\n§o§9@UC: Addon Template
+item.utilitycraft:example_crystal_seeds=Example Crystal Seeds\n§o§9@UC: Addon Template
+item.utilitycraft:example_crystal_shard=Example Crystal Shard\n§o§9@UC: Addon Template
+item.utilitycraft:example_energized_alloy=Example Energized Alloy\n§o§9@UC: Addon Template
+item.utilitycraft:example_biomass=Example Biomass\n§o§9@UC: Addon Template
+
+## Upgrade names shown by the shared upgrade UI
+upgrade.utilitycraft:example_speed_upgrade.name=Example Speed Upgrade
+upgrade.utilitycraft:example_efficiency_upgrade.name=Example Efficiency Upgrade
+upgrade.utilitycraft:example_batch_upgrade.name=Example Batch Upgrade
+upgrade.utilitycraft:example_thermal_upgrade.name=Example Thermal Upgrade
+
+## Helper entity name (normally hidden behind its controller block)
+entity.utilitycraft:example_multiblock_machine.name=Example Multiblock Machine
+entity.utilitycraft:example_thermal_crusher.name=Example Thermal Crusher
+entity.utilitycraft:example_infuser.name=Example Scripted Infuser
+entity.utilitycraft:example_fluid_washer.name=Example Liquid Washer
+entity.utilitycraft:example_gas_reactor.name=Example Gas Reactor
+entity.utilitycraft:example_solar_generator.name=Example Solar Generator
+entity.utilitycraft:example_biofuel_generator.name=Example Biofuel Generator
+entity.utilitycraft:example_gas_turbine.name=Example Gas Turbine
+entity.utilitycraft:example_factory_crusher.name=Example Factory Crusher
+entity.utilitycraft:example_biofuel_dynamo.name=Example Biofuel Dynamo
+
+## Machine information tabs
+ui.utilitycraft:info.example_thermal_crusher=Crushes supported materials into processed resources. Each completed cycle consumes §sDorios Energy§8 and produces the configured result. Heat rises after processing and falls while idle.\n\n§8Slots:\n- §9Input§8: material to crush.\n- §cOutput§8: processed result.\n\n§8Accepted Upgrades:\n- §dSpeed§8: increases processing speed and energy cost.\n- §dEfficiency§8: reduces effective energy consumption.\n- §dBatch§8: processes additional crafts together.\n- §dThermal§8: increases heat capacity and cooling.
+ui.utilitycraft:info.example_infuser=Combines a base item with a catalyst while consuming §sDorios Energy§8. Each combination defines its required quantities, output amount and processing cost.\n\n§8Slots:\n- §9Base Input§8: the primary material.\n- §bCatalyst Input§8: the second ingredient.\n- §cOutput§8: infused result.\n\n§8Accepted Upgrades:\n- §dSpeed§8, §dEfficiency§8 and §dBatch§8.
+ui.utilitycraft:info.example_fluid_washer=Processes an item while consuming 250 mB of §gExample Coolant§8 per craft and §sDorios Energy§8. The liquid tank must contain Example Coolant.\n\n§8Slots and resources:\n- §9Item Input§8: material to wash.\n- §cItem Output§8: washed result.\n- §gCoolant Tank§8: liquid consumed by recipes.\n\n§8Accepted Upgrades:\n- §dSpeed§8, §dEfficiency§8 and §dBatch§8.
+ui.utilitycraft:info.example_gas_reactor=Consumes an iron catalyst and §uExample Hydrogen§8 to create crystal shards and §uExample Exhaust§8. Both gas tanks have fixed types, so input and output gases remain compatible with automation.\n\n§8Slots and resources:\n- §9Catalyst Input§8: iron ingots.\n- §cItem Output§8: crystal shards.\n- §uHydrogen Tank§8: gas input.\n- §uExhaust Tank§8: gas output.\n\n§8Accepted Upgrades:\n- §dSpeed§8, §dEfficiency§8 and §dBatch§8.
+ui.utilitycraft:info.example_solar_generator=Generates §sDorios Energy§8 during daytime while the block above it is air. It pauses at night, under a solid block or when its energy storage is full. It needs no item, liquid or gas IO.
+ui.utilitycraft:info.example_biofuel_generator=Consumes §gExample Biofuel§8 to generate §sDorios Energy§8. Each liquid unit provides 30 DE, and generation pauses when the tank is empty or energy storage is full.\n\n§8Resources:\n- §vBiofuel Input§8: liquid fuel accepted through configured faces.
+ui.utilitycraft:info.example_gas_turbine=Consumes §uExample Hydrogen§8 to generate §sDorios Energy§8. Each gas unit provides 40 DE, and generation pauses when the gas tank is empty or energy storage is full.\n\n§8Resources:\n- §vHydrogen Input§8: gas fuel accepted through configured faces.
+ui.utilitycraft:info.example_factory_crusher=This controller activates a Heavy Machinery-style multiblock. Energy cells determine capacity, processing modules determine batch size, and speed or efficiency modules modify runtime statistics.\n\n§8Controller slots:\n- §9Material Input§8.\n- §cProduct Output§8.\n\nExternal item and energy ports expose multiblock IO; they are configured on the port blocks rather than in this controller screen.
+ui.utilitycraft:info.example_biofuel_dynamo=This controller activates a liquid-fueled multiblock generator. Energy cells determine energy capacity and liquid cells determine §gExample Biofuel§8 capacity.\n\nExternal liquid and energy ports expose multiblock IO; they are configured on the port blocks rather than in this controller screen.
+
+## IO mode lists — functional colors match textures/ui/slots/README.md
+ui.utilitycraft:io.example_thermal_crusher.items=I/O Modes:\n§r- §9Input\n§r- §cOutput
+ui.utilitycraft:io.example_infuser.items=I/O Modes:\n§r- §9Base Input\n§r- §bCatalyst Input\n§r- §cOutput
+ui.utilitycraft:io.example_fluid_washer.items=Item I/O Modes:\n§r- §9Input\n§r- §cOutput
+ui.utilitycraft:io.example_fluid_washer.liquids=Liquid I/O Modes:\n§r- §9Coolant Input
+ui.utilitycraft:io.example_gas_reactor.items=Item I/O Modes:\n§r- §9Catalyst Input\n§r- §cProduct Output
+ui.utilitycraft:io.example_gas_reactor.gases=Gas I/O Modes:\n§r- §9Hydrogen Input\n§r- §cExhaust Output
+ui.utilitycraft:io.example_biofuel_generator.liquids=Liquid I/O Modes:\n§r- §vBiofuel Input
+ui.utilitycraft:io.example_gas_turbine.gases=Gas I/O Modes:\n§r- §vHydrogen Fuel

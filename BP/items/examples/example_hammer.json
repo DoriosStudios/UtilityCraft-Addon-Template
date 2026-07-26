@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": { "identifier": "utilitycraft:example_hammer", "menu_category": { "category": "equipment" } },
+    "components": {
+      "utilitycraft:hammer": { "tier": 2 },
+      "minecraft:icon": "utilitycraft_diamond_hammer",
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": { "max_durability": 512 },
+      "minecraft:damage": 5,
+      "minecraft:tags": {
+        "tags": ["minecraft:is_pickaxe", "minecraft:is_tool", "utilitycraft:is_hammer"]
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "speed": 10,
+            "block": { "tags": "q.any_tag('minecraft:is_pickaxe_item_destructible')" }
+          }
+        ]
+      }
+    }
+  }
+}
+

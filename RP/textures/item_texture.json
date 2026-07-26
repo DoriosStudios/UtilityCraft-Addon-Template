@@ -1,0 +1,609 @@
+{
+    "resource_pack_name":  "UtilityCraft Addon Template",
+    "texture_name":  "atlas.items",
+    "texture_data":  {
+                         "utilitycraft_example_empty_capsule":  {
+                                                                    "textures":  "textures/items/examples/empty_capsule"
+                                                                },
+                         "utilitycraft_example_coolant_capsule":  {
+                                                                      "textures":  "textures/items/examples/coolant_capsule"
+                                                                  },
+                         "utilitycraft_example_biofuel_capsule":  {
+                                                                      "textures":  "textures/items/examples/biofuel_capsule"
+                                                                  },
+                         "utilitycraft_example_hydrogen_capsule":  {
+                                                                       "textures":  "textures/items/examples/hydrogen_capsule"
+                                                                   },
+                         "utilitycraft_example_exhaust_capsule":  {
+                                                                      "textures":  "textures/items/examples/exhaust_capsule"
+                                                                  },
+                         "utilitycraft:example_coolant_00":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_00"
+                                                             },
+                         "utilitycraft:example_coolant_01":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_01"
+                                                             },
+                         "utilitycraft:example_coolant_02":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_02"
+                                                             },
+                         "utilitycraft:example_coolant_03":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_03"
+                                                             },
+                         "utilitycraft:example_coolant_04":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_04"
+                                                             },
+                         "utilitycraft:example_coolant_05":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_05"
+                                                             },
+                         "utilitycraft:example_coolant_06":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_06"
+                                                             },
+                         "utilitycraft:example_coolant_07":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_07"
+                                                             },
+                         "utilitycraft:example_coolant_08":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_08"
+                                                             },
+                         "utilitycraft:example_coolant_09":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_09"
+                                                             },
+                         "utilitycraft:example_coolant_10":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_10"
+                                                             },
+                         "utilitycraft:example_coolant_11":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_11"
+                                                             },
+                         "utilitycraft:example_coolant_12":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_12"
+                                                             },
+                         "utilitycraft:example_coolant_13":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_13"
+                                                             },
+                         "utilitycraft:example_coolant_14":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_14"
+                                                             },
+                         "utilitycraft:example_coolant_15":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_15"
+                                                             },
+                         "utilitycraft:example_coolant_16":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_16"
+                                                             },
+                         "utilitycraft:example_coolant_17":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_17"
+                                                             },
+                         "utilitycraft:example_coolant_18":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_18"
+                                                             },
+                         "utilitycraft:example_coolant_19":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_19"
+                                                             },
+                         "utilitycraft:example_coolant_20":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_20"
+                                                             },
+                         "utilitycraft:example_coolant_21":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_21"
+                                                             },
+                         "utilitycraft:example_coolant_22":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_22"
+                                                             },
+                         "utilitycraft:example_coolant_23":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_23"
+                                                             },
+                         "utilitycraft:example_coolant_24":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_24"
+                                                             },
+                         "utilitycraft:example_coolant_25":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_25"
+                                                             },
+                         "utilitycraft:example_coolant_26":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_26"
+                                                             },
+                         "utilitycraft:example_coolant_27":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_27"
+                                                             },
+                         "utilitycraft:example_coolant_28":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_28"
+                                                             },
+                         "utilitycraft:example_coolant_29":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_29"
+                                                             },
+                         "utilitycraft:example_coolant_30":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_30"
+                                                             },
+                         "utilitycraft:example_coolant_31":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_31"
+                                                             },
+                         "utilitycraft:example_coolant_32":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_32"
+                                                             },
+                         "utilitycraft:example_coolant_33":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_33"
+                                                             },
+                         "utilitycraft:example_coolant_34":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_34"
+                                                             },
+                         "utilitycraft:example_coolant_35":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_35"
+                                                             },
+                         "utilitycraft:example_coolant_36":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_36"
+                                                             },
+                         "utilitycraft:example_coolant_37":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_37"
+                                                             },
+                         "utilitycraft:example_coolant_38":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_38"
+                                                             },
+                         "utilitycraft:example_coolant_39":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_39"
+                                                             },
+                         "utilitycraft:example_coolant_40":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_40"
+                                                             },
+                         "utilitycraft:example_coolant_41":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_41"
+                                                             },
+                         "utilitycraft:example_coolant_42":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_42"
+                                                             },
+                         "utilitycraft:example_coolant_43":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_43"
+                                                             },
+                         "utilitycraft:example_coolant_44":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_44"
+                                                             },
+                         "utilitycraft:example_coolant_45":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_45"
+                                                             },
+                         "utilitycraft:example_coolant_46":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_46"
+                                                             },
+                         "utilitycraft:example_coolant_47":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_47"
+                                                             },
+                         "utilitycraft:example_coolant_48":  {
+                                                                 "textures":  "textures/ui/example_coolant_bar/example_coolant_48"
+                                                             },
+                         "utilitycraft:example_biofuel_00":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_00"
+                                                             },
+                         "utilitycraft:example_biofuel_01":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_01"
+                                                             },
+                         "utilitycraft:example_biofuel_02":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_02"
+                                                             },
+                         "utilitycraft:example_biofuel_03":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_03"
+                                                             },
+                         "utilitycraft:example_biofuel_04":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_04"
+                                                             },
+                         "utilitycraft:example_biofuel_05":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_05"
+                                                             },
+                         "utilitycraft:example_biofuel_06":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_06"
+                                                             },
+                         "utilitycraft:example_biofuel_07":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_07"
+                                                             },
+                         "utilitycraft:example_biofuel_08":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_08"
+                                                             },
+                         "utilitycraft:example_biofuel_09":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_09"
+                                                             },
+                         "utilitycraft:example_biofuel_10":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_10"
+                                                             },
+                         "utilitycraft:example_biofuel_11":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_11"
+                                                             },
+                         "utilitycraft:example_biofuel_12":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_12"
+                                                             },
+                         "utilitycraft:example_biofuel_13":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_13"
+                                                             },
+                         "utilitycraft:example_biofuel_14":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_14"
+                                                             },
+                         "utilitycraft:example_biofuel_15":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_15"
+                                                             },
+                         "utilitycraft:example_biofuel_16":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_16"
+                                                             },
+                         "utilitycraft:example_biofuel_17":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_17"
+                                                             },
+                         "utilitycraft:example_biofuel_18":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_18"
+                                                             },
+                         "utilitycraft:example_biofuel_19":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_19"
+                                                             },
+                         "utilitycraft:example_biofuel_20":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_20"
+                                                             },
+                         "utilitycraft:example_biofuel_21":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_21"
+                                                             },
+                         "utilitycraft:example_biofuel_22":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_22"
+                                                             },
+                         "utilitycraft:example_biofuel_23":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_23"
+                                                             },
+                         "utilitycraft:example_biofuel_24":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_24"
+                                                             },
+                         "utilitycraft:example_biofuel_25":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_25"
+                                                             },
+                         "utilitycraft:example_biofuel_26":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_26"
+                                                             },
+                         "utilitycraft:example_biofuel_27":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_27"
+                                                             },
+                         "utilitycraft:example_biofuel_28":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_28"
+                                                             },
+                         "utilitycraft:example_biofuel_29":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_29"
+                                                             },
+                         "utilitycraft:example_biofuel_30":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_30"
+                                                             },
+                         "utilitycraft:example_biofuel_31":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_31"
+                                                             },
+                         "utilitycraft:example_biofuel_32":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_32"
+                                                             },
+                         "utilitycraft:example_biofuel_33":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_33"
+                                                             },
+                         "utilitycraft:example_biofuel_34":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_34"
+                                                             },
+                         "utilitycraft:example_biofuel_35":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_35"
+                                                             },
+                         "utilitycraft:example_biofuel_36":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_36"
+                                                             },
+                         "utilitycraft:example_biofuel_37":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_37"
+                                                             },
+                         "utilitycraft:example_biofuel_38":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_38"
+                                                             },
+                         "utilitycraft:example_biofuel_39":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_39"
+                                                             },
+                         "utilitycraft:example_biofuel_40":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_40"
+                                                             },
+                         "utilitycraft:example_biofuel_41":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_41"
+                                                             },
+                         "utilitycraft:example_biofuel_42":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_42"
+                                                             },
+                         "utilitycraft:example_biofuel_43":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_43"
+                                                             },
+                         "utilitycraft:example_biofuel_44":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_44"
+                                                             },
+                         "utilitycraft:example_biofuel_45":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_45"
+                                                             },
+                         "utilitycraft:example_biofuel_46":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_46"
+                                                             },
+                         "utilitycraft:example_biofuel_47":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_47"
+                                                             },
+                         "utilitycraft:example_biofuel_48":  {
+                                                                 "textures":  "textures/ui/example_biofuel_bar/example_biofuel_48"
+                                                             },
+                         "utilitycraft:example_hydrogen_00":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_00"
+                                                              },
+                         "utilitycraft:example_hydrogen_01":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_01"
+                                                              },
+                         "utilitycraft:example_hydrogen_02":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_02"
+                                                              },
+                         "utilitycraft:example_hydrogen_03":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_03"
+                                                              },
+                         "utilitycraft:example_hydrogen_04":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_04"
+                                                              },
+                         "utilitycraft:example_hydrogen_05":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_05"
+                                                              },
+                         "utilitycraft:example_hydrogen_06":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_06"
+                                                              },
+                         "utilitycraft:example_hydrogen_07":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_07"
+                                                              },
+                         "utilitycraft:example_hydrogen_08":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_08"
+                                                              },
+                         "utilitycraft:example_hydrogen_09":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_09"
+                                                              },
+                         "utilitycraft:example_hydrogen_10":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_10"
+                                                              },
+                         "utilitycraft:example_hydrogen_11":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_11"
+                                                              },
+                         "utilitycraft:example_hydrogen_12":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_12"
+                                                              },
+                         "utilitycraft:example_hydrogen_13":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_13"
+                                                              },
+                         "utilitycraft:example_hydrogen_14":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_14"
+                                                              },
+                         "utilitycraft:example_hydrogen_15":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_15"
+                                                              },
+                         "utilitycraft:example_hydrogen_16":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_16"
+                                                              },
+                         "utilitycraft:example_hydrogen_17":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_17"
+                                                              },
+                         "utilitycraft:example_hydrogen_18":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_18"
+                                                              },
+                         "utilitycraft:example_hydrogen_19":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_19"
+                                                              },
+                         "utilitycraft:example_hydrogen_20":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_20"
+                                                              },
+                         "utilitycraft:example_hydrogen_21":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_21"
+                                                              },
+                         "utilitycraft:example_hydrogen_22":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_22"
+                                                              },
+                         "utilitycraft:example_hydrogen_23":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_23"
+                                                              },
+                         "utilitycraft:example_hydrogen_24":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_24"
+                                                              },
+                         "utilitycraft:example_hydrogen_25":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_25"
+                                                              },
+                         "utilitycraft:example_hydrogen_26":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_26"
+                                                              },
+                         "utilitycraft:example_hydrogen_27":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_27"
+                                                              },
+                         "utilitycraft:example_hydrogen_28":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_28"
+                                                              },
+                         "utilitycraft:example_hydrogen_29":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_29"
+                                                              },
+                         "utilitycraft:example_hydrogen_30":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_30"
+                                                              },
+                         "utilitycraft:example_hydrogen_31":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_31"
+                                                              },
+                         "utilitycraft:example_hydrogen_32":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_32"
+                                                              },
+                         "utilitycraft:example_hydrogen_33":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_33"
+                                                              },
+                         "utilitycraft:example_hydrogen_34":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_34"
+                                                              },
+                         "utilitycraft:example_hydrogen_35":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_35"
+                                                              },
+                         "utilitycraft:example_hydrogen_36":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_36"
+                                                              },
+                         "utilitycraft:example_hydrogen_37":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_37"
+                                                              },
+                         "utilitycraft:example_hydrogen_38":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_38"
+                                                              },
+                         "utilitycraft:example_hydrogen_39":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_39"
+                                                              },
+                         "utilitycraft:example_hydrogen_40":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_40"
+                                                              },
+                         "utilitycraft:example_hydrogen_41":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_41"
+                                                              },
+                         "utilitycraft:example_hydrogen_42":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_42"
+                                                              },
+                         "utilitycraft:example_hydrogen_43":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_43"
+                                                              },
+                         "utilitycraft:example_hydrogen_44":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_44"
+                                                              },
+                         "utilitycraft:example_hydrogen_45":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_45"
+                                                              },
+                         "utilitycraft:example_hydrogen_46":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_46"
+                                                              },
+                         "utilitycraft:example_hydrogen_47":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_47"
+                                                              },
+                         "utilitycraft:example_hydrogen_48":  {
+                                                                  "textures":  "textures/ui/example_hydrogen_bar/example_hydrogen_48"
+                                                              },
+                         "utilitycraft:example_exhaust_00":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_00"
+                                                             },
+                         "utilitycraft:example_exhaust_01":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_01"
+                                                             },
+                         "utilitycraft:example_exhaust_02":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_02"
+                                                             },
+                         "utilitycraft:example_exhaust_03":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_03"
+                                                             },
+                         "utilitycraft:example_exhaust_04":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_04"
+                                                             },
+                         "utilitycraft:example_exhaust_05":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_05"
+                                                             },
+                         "utilitycraft:example_exhaust_06":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_06"
+                                                             },
+                         "utilitycraft:example_exhaust_07":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_07"
+                                                             },
+                         "utilitycraft:example_exhaust_08":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_08"
+                                                             },
+                         "utilitycraft:example_exhaust_09":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_09"
+                                                             },
+                         "utilitycraft:example_exhaust_10":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_10"
+                                                             },
+                         "utilitycraft:example_exhaust_11":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_11"
+                                                             },
+                         "utilitycraft:example_exhaust_12":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_12"
+                                                             },
+                         "utilitycraft:example_exhaust_13":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_13"
+                                                             },
+                         "utilitycraft:example_exhaust_14":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_14"
+                                                             },
+                         "utilitycraft:example_exhaust_15":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_15"
+                                                             },
+                         "utilitycraft:example_exhaust_16":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_16"
+                                                             },
+                         "utilitycraft:example_exhaust_17":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_17"
+                                                             },
+                         "utilitycraft:example_exhaust_18":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_18"
+                                                             },
+                         "utilitycraft:example_exhaust_19":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_19"
+                                                             },
+                         "utilitycraft:example_exhaust_20":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_20"
+                                                             },
+                         "utilitycraft:example_exhaust_21":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_21"
+                                                             },
+                         "utilitycraft:example_exhaust_22":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_22"
+                                                             },
+                         "utilitycraft:example_exhaust_23":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_23"
+                                                             },
+                         "utilitycraft:example_exhaust_24":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_24"
+                                                             },
+                         "utilitycraft:example_exhaust_25":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_25"
+                                                             },
+                         "utilitycraft:example_exhaust_26":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_26"
+                                                             },
+                         "utilitycraft:example_exhaust_27":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_27"
+                                                             },
+                         "utilitycraft:example_exhaust_28":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_28"
+                                                             },
+                         "utilitycraft:example_exhaust_29":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_29"
+                                                             },
+                         "utilitycraft:example_exhaust_30":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_30"
+                                                             },
+                         "utilitycraft:example_exhaust_31":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_31"
+                                                             },
+                         "utilitycraft:example_exhaust_32":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_32"
+                                                             },
+                         "utilitycraft:example_exhaust_33":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_33"
+                                                             },
+                         "utilitycraft:example_exhaust_34":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_34"
+                                                             },
+                         "utilitycraft:example_exhaust_35":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_35"
+                                                             },
+                         "utilitycraft:example_exhaust_36":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_36"
+                                                             },
+                         "utilitycraft:example_exhaust_37":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_37"
+                                                             },
+                         "utilitycraft:example_exhaust_38":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_38"
+                                                             },
+                         "utilitycraft:example_exhaust_39":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_39"
+                                                             },
+                         "utilitycraft:example_exhaust_40":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_40"
+                                                             },
+                         "utilitycraft:example_exhaust_41":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_41"
+                                                             },
+                         "utilitycraft:example_exhaust_42":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_42"
+                                                             },
+                         "utilitycraft:example_exhaust_43":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_43"
+                                                             },
+                         "utilitycraft:example_exhaust_44":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_44"
+                                                             },
+                         "utilitycraft:example_exhaust_45":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_45"
+                                                             },
+                         "utilitycraft:example_exhaust_46":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_46"
+                                                             },
+                         "utilitycraft:example_exhaust_47":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_47"
+                                                             },
+                         "utilitycraft:example_exhaust_48":  {
+                                                                 "textures":  "textures/ui/example_exhaust_bar/example_exhaust_48"
+                                                             }
+                     }
+}

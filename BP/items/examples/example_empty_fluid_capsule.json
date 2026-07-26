@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": { "identifier": "utilitycraft:example_empty_fluid_capsule", "menu_category": { "category": "items" } },
+    "components": {
+      "minecraft:icon": "utilitycraft_example_empty_capsule",
+      "minecraft:max_stack_size": 64
+    }
+  }
+}
+

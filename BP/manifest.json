@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["Dorios Studios"],
+    "product_type": "addon"
+  },
+  "header": {
+    "name": "UtilityCraft Addon Template BP",
+    "description": "Functional and documented DoriosCore examples. Requires UtilityCraft 3.5.0+.",
+    "min_engine_version": [1, 21, 120],
+    "uuid": "c1d0e5e1-ab8f-4b39-9beb-f337da652817",
+    "version": [0, 1, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "c2e2a10c-7ec1-432c-ae88-c9c3c5095b0d",
+      "version": [0, 1, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "3342f873-24a5-4934-b7bf-28c67e89efb5",
+      "version": [0, 1, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "f0b89465-cfab-44f1-8c7e-9e62dad3816a",
+      "version": [0, 1, 0]
+    },
+    {
+      "uuid": "9d61a8df-7d50-4624-8bff-d2c90c52a5a0",
+      "version": [3, 5, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.8.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}
+

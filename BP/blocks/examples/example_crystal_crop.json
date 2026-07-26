@@ -1,0 +1,53 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:block": {
+    "description": {
+      "identifier": "utilitycraft:example_crystal_crop",
+      "states": { "utilitycraft:example_age": [0, 1, 2, 3, 4, 5] }
+    },
+    "components": {
+      "utilitycraft:example_crystal_crop": {},
+      "minecraft:geometry": "geometry.utilitycraft_crop",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "utilitycraft_base0",
+          "render_method": "alpha_test",
+          "ambient_occlusion": true,
+          "face_dimming": false
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          { "allowed_faces": ["up"], "block_filter": ["minecraft:farmland"] }
+        ]
+      },
+      "minecraft:collision_box": false,
+      "minecraft:loot": "loot_tables/examples/example_crystal_crop.json",
+      "minecraft:tick": { "interval_range": [160, 240], "looping": true },
+      "minecraft:light_dampening": 0
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('utilitycraft:example_age') == 1",
+        "components": { "minecraft:material_instances": { "*": { "texture": "utilitycraft_base1", "render_method": "alpha_test" } } }
+      },
+      {
+        "condition": "q.block_state('utilitycraft:example_age') == 2",
+        "components": { "minecraft:material_instances": { "*": { "texture": "utilitycraft_base2", "render_method": "alpha_test" } } }
+      },
+      {
+        "condition": "q.block_state('utilitycraft:example_age') == 3",
+        "components": { "minecraft:material_instances": { "*": { "texture": "utilitycraft_base3", "render_method": "alpha_test" } } }
+      },
+      {
+        "condition": "q.block_state('utilitycraft:example_age') == 4",
+        "components": { "minecraft:material_instances": { "*": { "texture": "utilitycraft_emerald_crop0", "render_method": "alpha_test" } } }
+      },
+      {
+        "condition": "q.block_state('utilitycraft:example_age') == 5",
+        "components": { "minecraft:material_instances": { "*": { "texture": "utilitycraft_emerald_crop1", "render_method": "alpha_test" } } }
+      }
+    ]
+  }
+}
+

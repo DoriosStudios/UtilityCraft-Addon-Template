@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "utilitycraft:example_crystal_seeds",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+

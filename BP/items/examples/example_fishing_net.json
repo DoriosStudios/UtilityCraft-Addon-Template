@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.110",
+  "minecraft:item": {
+    "description": { "identifier": "utilitycraft:example_fishing_net", "menu_category": { "category": "construction" } },
+    "components": {
+      "utilitycraft:fishing_net": {
+        "tier": 4,
+        "speed": 1.5,
+        "chance_multiplier": 1.75,
+        "amount_multiplier": 1,
+        "rolls": 2,
+        "luck": 3
+      },
+      "minecraft:icon": "utilitycraft_diamond_fishing_net",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": { "max_durability": 768 }
+    }
+  }
+}

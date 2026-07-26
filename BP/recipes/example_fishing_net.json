@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "utilitycraft:example_fishing_net" },
+    "tags": ["crafting_table"],
+    "pattern": ["SSS", "SIS", "SSS"],
+    "key": {
+      "S": { "item": "minecraft:string" },
+      "I": { "item": "minecraft:iron_ingot" }
+    },
+    "unlock": [
+      { "item": "minecraft:string" },
+      { "item": "minecraft:iron_ingot" }
+    ],
+    "result": { "item": "utilitycraft:example_fishing_net", "count": 1 }
+  }
+}

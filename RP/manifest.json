@@ -1,0 +1,31 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["Dorios Studios"],
+    "product_type": "addon"
+  },
+  "header": {
+    "name": "UtilityCraft Addon Template RP",
+    "description": "Resources for the UtilityCraft addon template.",
+    "min_engine_version": [1, 21, 120],
+    "uuid": "f0b89465-cfab-44f1-8c7e-9e62dad3816a",
+    "version": [0, 1, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "3edc8f52-d591-49fd-b910-b3ac80ec532e",
+      "version": [0, 1, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c1d0e5e1-ab8f-4b39-9beb-f337da652817",
+      "version": [0, 1, 0]
+    },
+    {
+      "uuid": "b8bff6b0-417e-43fb-9451-d1d9d80c309f",
+      "version": [3, 5, 0]
+    }
+  ]
+}

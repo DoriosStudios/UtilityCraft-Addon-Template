@@ -1,0 +1,165 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "construction",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "utilitycraft:example_solar_generator",
+              "name": "utilitycraft:itemGroup.name.example_generators"
+            },
+            "items": [
+              "utilitycraft:example_cobble_generator",
+              "utilitycraft:example_deepslate_generator",
+              "utilitycraft:example_solar_generator",
+              "utilitycraft:example_biofuel_generator",
+              "utilitycraft:example_gas_turbine"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "utilitycraft:example_thermal_crusher",
+              "name": "utilitycraft:itemGroup.name.example_machines"
+            },
+            "items": [
+              "utilitycraft:example_thermal_crusher",
+              "utilitycraft:example_infuser",
+              "utilitycraft:example_fluid_washer",
+              "utilitycraft:example_gas_reactor"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "utilitycraft:example_creative_coolant_tank",
+              "name": "utilitycraft:itemGroup.name.example_creative_tanks"
+            },
+            "items": [
+              "utilitycraft:example_creative_coolant_tank",
+              "utilitycraft:example_creative_biofuel_tank",
+              "utilitycraft:example_creative_hydrogen_tank",
+              "utilitycraft:example_creative_exhaust_tank"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "utilitycraft:example_factory_crusher",
+              "name": "utilitycraft:itemGroup.name.example_multiblock_controllers"
+            },
+            "items": [
+              "utilitycraft:example_factory_crusher",
+              "utilitycraft:example_biofuel_dynamo"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "utilitycraft:example_casing",
+              "name": "utilitycraft:itemGroup.name.example_multiblock_components"
+            },
+            "items": [
+              "utilitycraft:example_casing",
+              "utilitycraft:example_energy_cell",
+              "utilitycraft:example_fluid_cell",
+              "utilitycraft:example_processing_module",
+              "utilitycraft:example_speed_module",
+              "utilitycraft:example_efficiency_module",
+              "utilitycraft:example_item_port",
+              "utilitycraft:example_fluid_port",
+              "utilitycraft:example_energy_port",
+              "utilitycraft:example_gas_port"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "utilitycraft:example_mesh",
+              "name": "utilitycraft:itemGroup.name.example_meshes"
+            },
+            "items": [
+              "utilitycraft:example_mesh"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "utilitycraft:example_fishing_net",
+              "name": "utilitycraft:itemGroup.name.example_fishing_nets"
+            },
+            "items": [
+              "utilitycraft:example_fishing_net"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "utilitycraft:example_speed_upgrade",
+              "name": "utilitycraft:itemGroup.name.example_upgrades"
+            },
+            "items": [
+              "utilitycraft:example_speed_upgrade",
+              "utilitycraft:example_efficiency_upgrade",
+              "utilitycraft:example_batch_upgrade",
+              "utilitycraft:example_thermal_upgrade"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "utilitycraft:example_coolant_capsule",
+              "name": "utilitycraft:itemGroup.name.example_resource_containers"
+            },
+            "items": [
+              "utilitycraft:example_empty_fluid_capsule",
+              "utilitycraft:example_coolant_capsule",
+              "utilitycraft:example_biofuel_capsule",
+              "utilitycraft:example_empty_gas_capsule",
+              "utilitycraft:example_hydrogen_capsule",
+              "utilitycraft:example_exhaust_capsule"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "utilitycraft:example_energized_alloy",
+              "name": "utilitycraft:itemGroup.name.example_materials"
+            },
+            "items": [
+              "utilitycraft:example_crystal_shard",
+              "utilitycraft:example_energized_alloy",
+              "utilitycraft:example_biomass"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "utilitycraft:example_hammer",
+              "name": "utilitycraft:itemGroup.name.example_hammers"
+            },
+            "items": [
+              "utilitycraft:example_hammer"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "nature",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "utilitycraft:example_crystal_seeds",
+              "name": "utilitycraft:itemGroup.name.example_seeds"
+            },
+            "items": [
+              "utilitycraft:example_crystal_seeds"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

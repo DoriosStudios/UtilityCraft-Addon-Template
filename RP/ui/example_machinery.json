@@ -1,0 +1,400 @@
+{
+  "namespace": "example_ui",
+
+  "utility_panel_template": {
+    "type": "panel",
+    "$machine_top|default": "example_ui.thermal_crusher_top",
+    "controls": [
+      { "container_gamepad_helpers@common.container_gamepad_helpers": {} },
+      { "flying_item_renderer@common.flying_item_renderer": { "layer": 40 } },
+      { "selected_item_details_factory@common.selected_item_details_factory": {} },
+      { "item_lock_notification_factory@common.item_lock_notification_factory": {} },
+      {
+        "root_panel@common.root_panel": {
+          "layer": 1,
+          "controls": [
+            { "common_panel@common.common_panel": {} },
+            {
+              "chest_panel": {
+                "type": "panel",
+                "layer": 5,
+                "controls": [
+                  { "machine_top@$machine_top": {} },
+                  { "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {} },
+                  { "hotbar_grid@common.hotbar_grid_template": {} },
+                  { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
+                ]
+              }
+            },
+            { "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+            { "gamepad_cursor@common.gamepad_cursor_button": {} }
+          ]
+        }
+      }
+    ]
+  },
+
+  "thermal_crusher_top": {
+    "type": "collection_panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [162, 72],
+    "offset": [-10, -40],
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "controls": [
+      { "machine_name@uc.machine_name": {} },
+      { "machine_screen@uc.machine_small_screen": { "layer": 1 } },
+      { "machine_description@uc.text_label": { "collection_index": 1, "anchor_from": "top_left", "anchor_to": "top_left", "size": [48, 48], "$text_scale": 0.55, "offset": [14, 12] } },
+      { "energy_bar@uc.energy_bar": { "offset": [-101, -13], "$bar_bg_texture": "textures/ui/toggle_button/left_bg" } },
+      { "input@uc.input_slot": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [0, 30], "collection_index": 3 } },
+      { "progress@uc.progress_display": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [28, 23], "collection_index": 2 } },
+      { "output@uc.output_slot": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [56, 26], "collection_index": 4 } },
+      {
+        "upgrades@uc.upgrades_tab": {
+          "$upgrade_index_1": 5,
+          "$upgrade_index_2": 6,
+          "$upgrade_index_3": 7,
+          "$upgrade_index_4": 8,
+          "$has_third_upgrade": true,
+          "$has_fourth_upgrade": true,
+          "$upgrade_overlay_1": "textures/items/machinery/speed_upgrade",
+          "$upgrade_overlay_2": "textures/items/machinery/energy_upgrade",
+          "$upgrade_overlay_3": "textures/items/machinery/quantity_upgrade",
+          "$upgrade_overlay_4": "textures/items/machinery/range_upgrade"
+        }
+      },
+      {
+        "io@uc.io_tab": {
+          "$io_items_modes_description": "ui.utilitycraft:io.example_thermal_crusher.items",
+          "$io_top_texture": "textures/blocks/examples/thermal_crusher_off_up",
+          "$io_left_texture": "textures/blocks/examples/thermal_crusher_off_west",
+          "$io_front_texture": "textures/blocks/examples/thermal_crusher_off_north",
+          "$io_right_texture": "textures/blocks/examples/thermal_crusher_off_east",
+          "$io_bottom_texture": "textures/blocks/examples/thermal_crusher_off_down",
+          "$io_back_texture": "textures/blocks/examples/thermal_crusher_off_south",
+          "$io_item_top_index": 9,
+          "$io_item_left_index": 10,
+          "$io_item_front_index": 11,
+          "$io_item_right_index": 12,
+          "$io_item_bottom_index": 13,
+          "$io_item_back_index": 14
+        }
+      },
+      { "info@uc.info_tab": { "$info_description": "ui.utilitycraft:info.example_thermal_crusher" } }
+    ]
+  },
+
+  "infuser_top": {
+    "type": "collection_panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [162, 72],
+    "offset": [-10, -40],
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "controls": [
+      { "machine_name@uc.machine_name": {} },
+      { "machine_screen@uc.machine_small_screen": { "layer": 1 } },
+      { "machine_description@uc.text_label": { "collection_index": 1, "anchor_from": "top_left", "anchor_to": "top_left", "size": [48, 48], "$text_scale": 0.55, "offset": [14, 12] } },
+      { "energy_bar@uc.energy_bar": { "offset": [-101, -13], "$bar_bg_texture": "textures/ui/toggle_button/left_bg" } },
+      { "base@uc.input_slot": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [2, 37], "collection_index": 3 } },
+      { "catalyst@uc.input_2_slot": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [2, 10], "collection_index": 4 } },
+      { "progress@uc.progress_display": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [34, 23], "collection_index": 2 } },
+      { "output@uc.output_slot": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [64, 26], "collection_index": 5 } },
+      {
+        "upgrades@uc.upgrades_tab": {
+          "$upgrade_index_1": 6,
+          "$upgrade_index_2": 7,
+          "$upgrade_index_3": 8,
+          "$has_third_upgrade": true,
+          "$upgrade_overlay_1": "textures/items/machinery/speed_upgrade",
+          "$upgrade_overlay_2": "textures/items/machinery/energy_upgrade",
+          "$upgrade_overlay_3": "textures/items/machinery/quantity_upgrade"
+        }
+      },
+      {
+        "io@uc.io_tab": {
+          "$io_items_modes_description": "ui.utilitycraft:io.example_infuser.items",
+          "$io_top_texture": "textures/blocks/examples/infuser_off_up",
+          "$io_left_texture": "textures/blocks/examples/infuser_off_west",
+          "$io_front_texture": "textures/blocks/examples/infuser_off_north",
+          "$io_right_texture": "textures/blocks/examples/infuser_off_east",
+          "$io_bottom_texture": "textures/blocks/examples/infuser_off_down",
+          "$io_back_texture": "textures/blocks/examples/infuser_off_south",
+          "$io_item_top_index": 9,
+          "$io_item_left_index": 10,
+          "$io_item_front_index": 11,
+          "$io_item_right_index": 12,
+          "$io_item_bottom_index": 13,
+          "$io_item_back_index": 14
+        }
+      },
+      { "info@uc.info_tab": { "$info_description": "ui.utilitycraft:info.example_infuser" } }
+    ]
+  },
+
+  "fluid_washer_top": {
+    "type": "collection_panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [162, 72],
+    "offset": [-10, -40],
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "controls": [
+      { "machine_name@uc.machine_name": {} },
+      { "machine_screen@uc.machine_small_screen": { "layer": 1 } },
+      { "machine_description@uc.text_label": { "collection_index": 1, "anchor_from": "top_left", "anchor_to": "top_left", "size": [48, 48], "$text_scale": 0.55, "offset": [14, 12] } },
+      { "energy_bar@uc.energy_bar": { "offset": [-101, -13], "$bar_bg_texture": "textures/ui/toggle_button/left_bg" } },
+      { "input@uc.input_slot": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [-6, 12], "collection_index": 3 } },
+      { "output@uc.output_slot": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [-6, 43], "collection_index": 5 } },
+      { "progress@uc.progress_display": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [22, 23], "collection_index": 2 } },
+      { "coolant@uc.liquid_input_1_bar": { "$collection_index": 4, "$has_bg": false, "offset": [50, 0] } },
+      {
+        "upgrades@uc.upgrades_tab": {
+          "$upgrade_index_1": 6,
+          "$upgrade_index_2": 7,
+          "$upgrade_index_3": 8,
+          "$has_third_upgrade": true,
+          "$upgrade_overlay_1": "textures/items/machinery/speed_upgrade",
+          "$upgrade_overlay_2": "textures/items/machinery/energy_upgrade",
+          "$upgrade_overlay_3": "textures/items/machinery/quantity_upgrade"
+        }
+      },
+      {
+        "io@uc.io_tab": {
+          "$io_items_modes_description": "ui.utilitycraft:io.example_fluid_washer.items",
+          "$io_fluids_modes_description": "ui.utilitycraft:io.example_fluid_washer.liquids",
+          "$has_item_io": true,
+          "$has_fluid_io": true,
+          "$io_top_texture": "textures/blocks/examples/fluid_washer_up",
+          "$io_left_texture": "textures/blocks/examples/fluid_washer_west",
+          "$io_front_texture": "textures/blocks/examples/fluid_washer_north",
+          "$io_right_texture": "textures/blocks/examples/fluid_washer_east",
+          "$io_bottom_texture": "textures/blocks/examples/fluid_washer_down",
+          "$io_back_texture": "textures/blocks/examples/fluid_washer_south",
+          "$io_item_top_index": 9,
+          "$io_item_left_index": 10,
+          "$io_item_front_index": 11,
+          "$io_item_right_index": 12,
+          "$io_item_bottom_index": 13,
+          "$io_item_back_index": 14,
+          "$io_fluid_top_index": 15,
+          "$io_fluid_left_index": 16,
+          "$io_fluid_front_index": 17,
+          "$io_fluid_right_index": 18,
+          "$io_fluid_bottom_index": 19,
+          "$io_fluid_back_index": 20
+        }
+      },
+      { "info@uc.info_tab": { "$info_description": "ui.utilitycraft:info.example_fluid_washer" } }
+    ]
+  },
+
+  "gas_reactor_top": {
+    "type": "collection_panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [162, 72],
+    "offset": [-10, -40],
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "controls": [
+      { "machine_name@uc.machine_name": {} },
+      { "machine_screen@uc.machine_small_screen": { "layer": 1 } },
+      { "machine_description@uc.text_label": { "collection_index": 1, "anchor_from": "top_left", "anchor_to": "top_left", "size": [48, 48], "$text_scale": 0.55, "offset": [14, 12] } },
+      { "energy_bar@uc.energy_bar": { "offset": [-101, -13], "$bar_bg_texture": "textures/ui/toggle_button/left_bg" } },
+      { "catalyst@uc.input_slot": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [-6, 12], "collection_index": 3 } },
+      { "output@uc.output_slot": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [-6, 43], "collection_index": 4 } },
+      { "progress@uc.progress_display": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [20, 23], "collection_index": 2 } },
+      { "hydrogen@uc.fluid_bar": { "$collection_index": 5, "$has_bg": false, "offset": [31, 0] } },
+      { "exhaust@uc.fluid_bar": { "$collection_index": 6, "$has_bg": false, "offset": [49, 0] } },
+      {
+        "upgrades@uc.upgrades_tab": {
+          "$upgrade_index_1": 7,
+          "$upgrade_index_2": 8,
+          "$upgrade_index_3": 9,
+          "$has_third_upgrade": true,
+          "$upgrade_overlay_1": "textures/items/machinery/speed_upgrade",
+          "$upgrade_overlay_2": "textures/items/machinery/energy_upgrade",
+          "$upgrade_overlay_3": "textures/items/machinery/quantity_upgrade"
+        }
+      },
+      {
+        "io@uc.io_tab": {
+          "$io_items_modes_description": "ui.utilitycraft:io.example_gas_reactor.items",
+          "$io_gases_modes_description": "ui.utilitycraft:io.example_gas_reactor.gases",
+          "$has_item_io": true,
+          "$has_fluid_io": false,
+          "$has_gas_io": true,
+          "$io_top_texture": "textures/blocks/examples/gas_reactor_off_up",
+          "$io_left_texture": "textures/blocks/examples/gas_reactor_off_west",
+          "$io_front_texture": "textures/blocks/examples/gas_reactor_off_north",
+          "$io_right_texture": "textures/blocks/examples/gas_reactor_off_east",
+          "$io_bottom_texture": "textures/blocks/examples/gas_reactor_off_down",
+          "$io_back_texture": "textures/blocks/examples/gas_reactor_off_south",
+          "$io_item_top_index": 10,
+          "$io_item_left_index": 11,
+          "$io_item_front_index": 12,
+          "$io_item_right_index": 13,
+          "$io_item_bottom_index": 14,
+          "$io_item_back_index": 15,
+          "$io_gas_top_index": 16,
+          "$io_gas_left_index": 17,
+          "$io_gas_front_index": 18,
+          "$io_gas_right_index": 19,
+          "$io_gas_bottom_index": 20,
+          "$io_gas_back_index": 21
+        }
+      },
+      { "info@uc.info_tab": { "$info_description": "ui.utilitycraft:info.example_gas_reactor" } }
+    ]
+  },
+
+  "solar_generator_top": {
+    "type": "collection_panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [162, 72],
+    "offset": [-10, -40],
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "controls": [
+      { "machine_name@uc.machine_name": {} },
+      { "machine_screen@uc.big_machine_screen": {} },
+      { "machine_description@uc.text_label": { "collection_index": 1, "anchor_from": "top_left", "anchor_to": "top_left", "size": [98, 48], "$text_scale": 0.55, "offset": [14, 12] } },
+      { "energy_bar@uc.energy_bar": { "offset": [54, 0], "$has_bg": false } },
+      { "info@uc.info_tab": { "$info_description": "ui.utilitycraft:info.example_solar_generator" } }
+    ]
+  },
+
+  "biofuel_generator_top": {
+    "type": "collection_panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [162, 72],
+    "offset": [-10, -40],
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "controls": [
+      { "machine_name@uc.machine_name": {} },
+      { "machine_screen@uc.machine_small_screen": {} },
+      { "machine_description@uc.text_label": { "collection_index": 1, "anchor_from": "top_left", "anchor_to": "top_left", "size": [48, 48], "$text_scale": 0.55, "offset": [14, 12] } },
+      { "energy_bar@uc.energy_bar": { "offset": [32, 0], "$has_bg": false } },
+      { "fuel@uc.liquid_fuel_bar": { "$collection_index": 2, "$has_bg": false, "offset": [54, 0] } },
+      {
+        "io@uc.io_tab": {
+          "$io_fluids_modes_description": "ui.utilitycraft:io.example_biofuel_generator.liquids",
+          "$has_item_io": false,
+          "$has_fluid_io": true,
+          "$io_items_default": false,
+          "$io_fluids_default": true,
+          "$io_default_tab_index": 1,
+          "$io_top_texture": "textures/blocks/examples/biofuel_generator_off_up",
+          "$io_left_texture": "textures/blocks/examples/biofuel_generator_off_west",
+          "$io_front_texture": "textures/blocks/examples/biofuel_generator_off_north",
+          "$io_right_texture": "textures/blocks/examples/biofuel_generator_off_east",
+          "$io_bottom_texture": "textures/blocks/examples/biofuel_generator_off_down",
+          "$io_back_texture": "textures/blocks/examples/biofuel_generator_off_south",
+          "$io_fluid_top_index": 3,
+          "$io_fluid_left_index": 4,
+          "$io_fluid_front_index": 5,
+          "$io_fluid_right_index": 6,
+          "$io_fluid_bottom_index": 7,
+          "$io_fluid_back_index": 8
+        }
+      },
+      { "info@uc.info_tab": { "$info_description": "ui.utilitycraft:info.example_biofuel_generator" } }
+    ]
+  },
+
+  "gas_turbine_top": {
+    "type": "collection_panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [162, 72],
+    "offset": [-10, -40],
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "controls": [
+      { "machine_name@uc.machine_name": {} },
+      { "machine_screen@uc.machine_small_screen": {} },
+      { "machine_description@uc.text_label": { "collection_index": 1, "anchor_from": "top_left", "anchor_to": "top_left", "size": [48, 48], "$text_scale": 0.55, "offset": [14, 12] } },
+      { "energy_bar@uc.energy_bar": { "offset": [32, 0], "$has_bg": false } },
+      { "fuel@uc.fluid_bar": { "$collection_index": 2, "$has_bg": false, "offset": [54, 0] } },
+      {
+        "io@uc.io_tab": {
+          "$io_gases_modes_description": "ui.utilitycraft:io.example_gas_turbine.gases",
+          "$has_item_io": false,
+          "$has_fluid_io": false,
+          "$has_gas_io": true,
+          "$io_items_default": false,
+          "$io_gases_default": true,
+          "$io_default_tab_index": 2,
+          "$io_top_texture": "textures/blocks/examples/gas_turbine_off_up",
+          "$io_left_texture": "textures/blocks/examples/gas_turbine_off_west",
+          "$io_front_texture": "textures/blocks/examples/gas_turbine_off_north",
+          "$io_right_texture": "textures/blocks/examples/gas_turbine_off_east",
+          "$io_bottom_texture": "textures/blocks/examples/gas_turbine_off_down",
+          "$io_back_texture": "textures/blocks/examples/gas_turbine_off_south",
+          "$io_gas_top_index": 3,
+          "$io_gas_left_index": 4,
+          "$io_gas_front_index": 5,
+          "$io_gas_right_index": 6,
+          "$io_gas_bottom_index": 7,
+          "$io_gas_back_index": 8
+        }
+      },
+      { "info@uc.info_tab": { "$info_description": "ui.utilitycraft:info.example_gas_turbine" } }
+    ]
+  },
+
+  "factory_crusher_top": {
+    "type": "collection_panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [162, 72],
+    "offset": [-10, -40],
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "controls": [
+      { "machine_name@uc.machine_name": {} },
+      { "machine_screen@uc.machine_small_screen": {} },
+      { "machine_description@uc.text_label": { "collection_index": 1, "anchor_from": "top_left", "anchor_to": "top_left", "size": [48, 48], "$text_scale": 0.55, "offset": [14, 12] } },
+      { "energy_bar@uc.energy_bar": { "offset": [-101, -13], "$bar_bg_texture": "textures/ui/toggle_button/left_bg" } },
+      { "input@uc.input_slot": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [0, 30], "collection_index": 3 } },
+      { "progress@uc.progress_display": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [28, 23], "collection_index": 2 } },
+      { "output@uc.output_slot": { "anchor_from": "top_middle", "anchor_to": "top_middle", "offset": [56, 26], "collection_index": 4 } },
+      { "info@uc.info_tab": { "$info_description": "ui.utilitycraft:info.example_factory_crusher" } }
+    ]
+  },
+
+  "biofuel_dynamo_top": {
+    "type": "collection_panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [162, 72],
+    "offset": [-10, -40],
+    "collection_name": "container_items",
+    "$item_collection_name": "container_items",
+    "controls": [
+      { "machine_name@uc.machine_name": {} },
+      { "machine_screen@uc.big_machine_screen": {} },
+      { "machine_description@uc.text_label": { "collection_index": 1, "anchor_from": "top_left", "anchor_to": "top_left", "size": [98, 48], "$text_scale": 0.55, "offset": [14, 12] } },
+      { "energy_bar@uc.energy_bar": { "offset": [32, 0], "$has_bg": false } },
+      { "fuel@uc.liquid_fuel_bar": { "$collection_index": 4, "$has_bg": false, "offset": [54, 0] } },
+      { "info@uc.info_tab": { "$info_description": "ui.utilitycraft:info.example_biofuel_dynamo" } }
+    ]
+  },
+
+  "thermal_crusher_utility_panel@example_ui.utility_panel_template": { "$machine_top": "example_ui.thermal_crusher_top" },
+  "infuser_utility_panel@example_ui.utility_panel_template": { "$machine_top": "example_ui.infuser_top" },
+  "fluid_washer_utility_panel@example_ui.utility_panel_template": { "$machine_top": "example_ui.fluid_washer_top" },
+  "gas_reactor_utility_panel@example_ui.utility_panel_template": { "$machine_top": "example_ui.gas_reactor_top" },
+  "solar_generator_utility_panel@example_ui.utility_panel_template": { "$machine_top": "example_ui.solar_generator_top" },
+  "biofuel_generator_utility_panel@example_ui.utility_panel_template": { "$machine_top": "example_ui.biofuel_generator_top" },
+  "gas_turbine_utility_panel@example_ui.utility_panel_template": { "$machine_top": "example_ui.gas_turbine_top" },
+  "factory_crusher_utility_panel@example_ui.utility_panel_template": { "$machine_top": "example_ui.factory_crusher_top" },
+  "biofuel_dynamo_utility_panel@example_ui.utility_panel_template": { "$machine_top": "example_ui.biofuel_dynamo_top" }
+}

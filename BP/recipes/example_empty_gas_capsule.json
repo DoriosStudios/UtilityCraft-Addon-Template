@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "utilitycraft:example_empty_gas_capsule" },
+    "tags": ["crafting_table"],
+    "pattern": [" C ", "CGC", " C "],
+    "key": {
+      "C": { "item": "minecraft:copper_ingot" },
+      "G": { "item": "minecraft:glass_pane" }
+    },
+    "unlock": [
+      { "item": "minecraft:copper_ingot" },
+      { "item": "minecraft:glass_pane" }
+    ],
+    "result": { "item": "utilitycraft:example_empty_gas_capsule", "count": 4 }
+  }
+}
