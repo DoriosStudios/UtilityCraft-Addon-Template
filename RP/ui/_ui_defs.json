@@ -1,5 +1,6 @@
 {
   "ui_defs": [
-    "ui/example_machinery.json"
+    "ui/example_machinery.json",
+    "ui/recipes/example_infuser.json"
   ]
 }
