@@ -4,6 +4,9 @@
     "authors": ["Dorios Studios"],
     "product_type": "addon"
   },
+  "capabilities": [
+    "pbr"
+  ],
   "header": {
     "name": "UtilityCraft Addon Template RP",
     "description": "Resources for the UtilityCraft addon template.",
