@@ -83,6 +83,6 @@ See [UI.md](docs/UI.md) for the standard screen layout, slot map rules, tabs and
 3. Rename `ExampleCore` to a clear addon-owned name such as `MYADDON_CORE` and update aliases in `config.json`, `jsconfig.json`, and the bundle scripts.
 4. Delete examples you do not need.
 5. Replace copied teaching textures with final licensed assets.
-6. Keep the UtilityCraft dependency and the public-root import verification.
+6. Enable UtilityCraft in the same world for the shared resources, but do not declare it as a pack dependency in either manifest. Keep the public-root import verification.
 
 The files copied from UtilityCraft and Heavy Machinery are used as learning assets in this Dorios Studios workspace. Review asset licensing before distributing a derived public template.
